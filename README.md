@@ -13,8 +13,14 @@ For my capstone project, I have learned and been introduced to graphical analysi
 |        └───MTA_Stations.csv
 └───src
 |   |   DE-HNN-Re
+|         └─── 
 |   └───MTA_Notebook
 |         └─── MTANotebook.ipynb
+└───results
+|   |   DEHNN_results
+|         └─── 
+|   └───MTA_results
+|         └─── mta_findings.txt
 └───README.md
 └───requirments.txt
 ```
