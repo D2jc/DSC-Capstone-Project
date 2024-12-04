@@ -13,8 +13,14 @@ For my capstone project, I have learned and been introduced to graphical analysi
 |        └───MTA_Stations.csv
 └───src
 |   |   DE-HNN-Re
+|         └─── 
 |   └───MTA_Notebook
 |         └─── MTANotebook.ipynb
+└───results
+|   |   DEHNN_results
+|         └─── 
+|   └───MTA_results
+|         └─── mta_findings.txt
 └───README.md
 └───requirments.txt
 ```
@@ -37,6 +43,10 @@ While the station data is in the repository, the ridership data can be located [
 ## Running
 
 Go to ```src/MTA_Notebook``` folder to find the notebook named ```MTANotebook.ipynb```. All of the code is written in the Jupyter Notebook interface and you will be able to run each cell to get the results of the analysis.
+
+## Results
+
+You may also look at only the results of my findings of all the Station IDs with the most congestion located in ```results/MTA_results/mta_findings.txt``` which is a txt file.
 
 # DE-HNN Paper Reimplementation
 
