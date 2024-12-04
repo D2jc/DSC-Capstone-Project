@@ -46,7 +46,7 @@ Go to ```src/MTA_Notebook``` folder to find the notebook named ```MTANotebook.ip
 
 ## Results
 
-You may also look at purely the results of my findings of all the Station IDs with the most congestion located in ```results/MTA_results/mta_findings.txt``` which is a txt file.
+You may also look at only the results of my findings of all the Station IDs with the most congestion located in ```results/MTA_results/mta_findings.txt``` which is a txt file.
 
 # DE-HNN Paper Reimplementation
 
