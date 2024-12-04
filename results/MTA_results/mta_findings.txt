@@ -1,0 +1,216 @@
+1) What are the top 5 origin sub-way stations from where most riders took subway ride:
+
+    a. Across each borough (Manhattan, Brooklyn, Queens, Bronx, State Island)
+
+	Top 5 stations in Bk:
+	Station ID: 617
+	Station ID: 120
+	Station ID: 636
+	Station ID: 620
+	Station ID: 345
+
+	Top 5 stations in M:
+	Station ID: 611
+	tation ID: 610
+	Station ID: 607
+	Station ID: 602
+	Station ID: 164
+
+	Top 5 stations in Bx:
+	Station ID: 604
+	Station ID: 434
+	Station ID: 366
+	Station ID: 382
+	Station ID: 371
+
+	Top 5 stations in Q:
+	Station ID: 616
+	Station ID: 447
+	Station ID: 450
+	Station ID: 279
+	Station ID: 451
+
+	Top 5 stations in SI:
+	Station ID: 501
+	Station ID: 502
+	Station ID: 503
+	Station ID: 504
+	Station ID: 505
+
+    b. On Monday, Tuesday, Wednesday (combined):
+
+	Station ID: 611
+	Station ID: 610
+	Station ID: 607
+	Station ID: 602
+	Station ID: 628
+
+    c. On Saturday and Sunday (combined):
+
+	Station ID: 611
+	Station ID: 607
+	Station ID: 610
+	Station ID: 602
+	Station ID: 164
+
+    d. Between 1am-5am across all days and boroughs:
+
+	Station ID: 611
+	Station ID: 616
+	Station ID: 447
+	Station ID: 450
+	Station ID: 278
+
+    e. Between 6am-9am across all days and boroughs:
+
+	Station ID: 611
+	Station ID: 610
+	Station ID: 616
+	Station ID: 318
+	Station ID: 447
+
+2) What are the top 5 destination sub-way stations from where most riders took subway ride:
+
+    a. Across each borough (Manhattan, Brooklyn, Queens, Bronx, State Island):
+	
+
+	Top 5 stations in Bk:
+	Station ID: 617
+	Station ID: 120
+	Station ID: 636
+	Station ID: 620
+	Station ID: 345
+
+	Top 5 stations in M:
+	Station ID: 611
+	Station ID: 610
+	Station ID: 607
+	Station ID: 602
+	Station ID: 628
+
+	Top 5 stations in Bx:
+	Station ID: 604
+	Station ID: 434
+	Station ID: 366
+	Station ID: 603
+	Station ID: 382
+
+	Top 5 stations in Q:
+	Station ID: 616
+	Station ID: 447
+	Station ID: 606
+	Station ID: 450
+	Station ID: 451
+
+	Top 5 stations in SI:
+	Station ID: 501
+	Station ID: 502
+	Station ID: 503
+	Station ID: 504
+	Station ID: 505
+	
+	Does not apply for State Island because there are no rides in State Island.
+
+    b. On Thursday and Friday (combined):
+
+	Station ID: 611
+	Station ID: 610
+	Station ID: 607
+	Station ID: 602
+	Station ID: 628
+
+    c. On Saturday only:
+
+	Station ID: 611
+	Station ID: 607
+	Station ID: 602
+	Station ID: 610
+	Station ID: 164
+
+    d. Between 12am-5am across all days and boroughs:
+
+	Station ID: 611
+	Station ID: 610
+	Station ID: 607
+	Station ID: 616
+	Station ID: 628
+
+    e. Between 6pm-9pm across all days and boroughs:
+
+	Station ID: 611
+	Station ID: 610
+	Station ID: 607
+	Station ID: 616
+	Station ID: 602
+
+3) What are the top 10 congested source-destination sub-way stations pair on:
+
+    a. Monday between 1pm-2pm?:
+
+	Origin Station ID: 447, Destination: 450
+	Origin Station ID: 610, Destination: 611
+	Origin Station ID: 447, Destination: 451
+	Origin Station ID: 628, Destination: 610
+	Origin Station ID: 602, Destination: 610
+	Origin Station ID: 447, Destination: 616
+	Origin Station ID: 610, Destination: 602
+	Origin Station ID: 610, Destination: 602
+	Origin Station ID: 624, Destination: 611
+	Origin Station ID: 611, Destination: 610
+
+   b. On Queens borough, on Fridays between 6pm-9pm?:
+
+	Origin Station ID: 447, Destination: 616
+	Origin Station ID: 447, Destination: 450
+	Origin Station ID: 447, Destination: 451
+	Origin Station ID: 451, Destination: 447
+	Origin Station ID: 447, Destination: 452
+	Origin Station ID: 616, Destination: 447
+	Origin Station ID: 450, Destination: 447
+	Origin Station ID: 447, Destination: 449
+	Origin Station ID: 453, Destination: 447
+	Origin Station ID: 616, Destination: 254
+
+   c. On Brooklyn borough, Ridership between 1am-5am?:
+
+	Origin Station ID: 345, Destination: 617
+	Origin Station ID: 359, Destination: 617
+	Origin Station ID: 120, Destination: 630
+	Origin Station ID: 345, Destination: 620
+	Origin Station ID: 630, Destination: 120
+	Origin Station ID: 345, Destination: 337
+	Origin Station ID: 188, Destination: 636
+	Origin Station ID: 617, Destination: 32
+	Origin Station ID: 120, Destination: 127
+	Origin Station ID: 629, Destination: 630
+
+   d. Source is Brooklyn, Destination is Manhattan, Monday-Thursday 6am-7am?:
+
+	Origin Station ID: 617, Destination: 414
+	Origin Station ID: 345, Destination: 610
+	Origin Station ID: 51, Destination: 607
+	Origin Station ID: 620, Destination: 610
+	Origin Station ID: 359, Destination: 610
+	Origin Station ID: 345, Destination: 628
+	Origin Station ID: 359, Destination: 628
+	Origin Station ID: 120, Destination: 610
+	Origin Station ID: 51, Destination: 225
+	Origin Station ID: 54, Destination: 225
+
+   e. Source is Bronx, Destination is Manhattan, Monday-Thursday 6am-7am?:
+
+	Origin Station ID: 366, Destination: 610
+	Origin Station ID: 366, Destination: 602
+	Origin Station ID: 366, Destination: 392
+	Origin Station ID: 366, Destination: 399
+	Origin Station ID: 366, Destination: 397
+	Origin Station ID: 366, Destination: 612
+	Origin Station ID: 366, Destination: 628
+	Origin Station ID: 366, Destination: 622
+	Origin Station ID: 604, Destination: 614
+	Origin Station ID: 378, Destination: 397
+
+   f. Source is Staten Island, Destination is Manhattan, Monday-Thursday 6am-7am?:
+	Empty because there are no rides associated with Staten Island
+
+
