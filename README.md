@@ -44,6 +44,10 @@ While the station data is in the repository, the ridership data can be located [
 
 Go to ```src/MTA_Notebook``` folder to find the notebook named ```MTANotebook.ipynb```. All of the code is written in the Jupyter Notebook interface and you will be able to run each cell to get the results of the analysis.
 
+## Results
+
+You may also look at purely the results of my findings of all the Station IDs with the most congestion located in ```results/MTA_results/mta_findings.txt``` which is a txt file.
+
 # DE-HNN Paper Reimplementation
 
 This part of the project will focus on my reimplementation of the DE-HNN paper where I will analyze cells and nets in a netlist for a chip to predict congestion in certain areas of the chip. The main features of the paper is representing the chip as a hypergraph and being able to utilize virtual nodes in a message passing neural network to predict congestion in a netlist. [Luo et al. (2024)](https://arxiv.org/abs/2404.00477).
