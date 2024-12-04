@@ -5,6 +5,7 @@ For my capstone project, I have learned and been introduced to graphical analysi
 ----------------------------
 
 # Folder Structure
+```
 |
 └───data
 |   |   Chip_data
@@ -16,10 +17,12 @@ For my capstone project, I have learned and been introduced to graphical analysi
 |         └─── MTANotebook.ipynb
 └───README.md
 └───requirments.txt
-
+```
 ---------------------------
 
 # Requirements
 
-Python 3.9 along with all the other dependencies which be installed by running
+Python 3.9 along with all the other dependencies which be installed by running the following:
+```
 pip install -r requirements.txt
+```
