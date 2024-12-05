@@ -13,13 +13,22 @@ For my capstone project, I have learned and been introduced to graphical analysi
 |        └───MTA_Stations.csv
 └───src
 |   |   DE-HNN-Re
-|         └─── data_process.ipynb
-|         └─── DEHNN_Model.ipynb
+|   |      └─── data_process.ipynb
+|   |      └─── Data_Analysis_DEHNN.ipynb
+|   |      └─── DEHNN_Model.ipynb
 |   └───MTA_Notebook
 |         └─── MTANotebook.ipynb
 └───results
 |   └───MTA_results
 |         └─── mta_findings.txt
+└───images
+|   └───MTA_images
+|   |        └───Rides_Stations_w_SI.png
+|   |        └───Rides_Stations_wo_SI.png
+|   └───DEHNN_images
+|           └───Xbar_congestions.png
+|           └───Xbar_Degrees_Histogram.png
+|           └───Cell_Count_Designs.png
 └───README.md
 └───requirments.txt
 ```
@@ -61,5 +70,6 @@ To find the code for this project, locate ```src/DE-HNN-Re/DEHNN_Model.ipynb``` 
 
 To run the model yourself, first process the data by opening the ```data_process.ipynb``` located in the same folder as the model is.
 
-- ```data_process.ipynb``` loads, processes, and creates a graph representation based on the raw data. For my project, I have only processed the raw data of ```xbar``` which is a folder containing 13 designs in the dataset linked above.
+- ```Data_Analysis_DEHNN.ipynb``` contains basic explanatory data I have done with the raw data of ```x_bar``` which is a folder containing 13 designs in the dataset linked above.
+- ```data_process.ipynb``` loads, processes, and creates a graph representation based on the raw data. For my project, I have only processed the raw data of ```xbar```.
 - ```DEHNN_Model.ipynb``` contains the DEHNN model itself as well as an example of training and testing the model using the data processed to predict congestion in the design.
