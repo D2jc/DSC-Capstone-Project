@@ -73,3 +73,7 @@ To run the model yourself, first process the data by opening the ```data_process
 - ```Data_Analysis_DEHNN.ipynb``` contains basic explanatory data I have done with the raw data of ```x_bar``` which is a folder containing 13 designs in the dataset linked above.
 - ```data_process.ipynb``` loads, processes, and creates a graph representation based on the raw data. For my project, I have only processed the raw data of ```xbar```.
 - ```DEHNN_Model.ipynb``` contains the DEHNN model itself as well as an example of training and testing the model using the data processed to predict congestion in the design.
+
+## Results
+
+Results of my model performing are located in the ```DEHNN_Model.ipynb```
