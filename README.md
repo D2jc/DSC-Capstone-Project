@@ -13,12 +13,11 @@ For my capstone project, I have learned and been introduced to graphical analysi
 |        └───MTA_Stations.csv
 └───src
 |   |   DE-HNN-Re
-|         └─── 
+|         └─── data_process.ipynb
+|         └─── DEHNN_Model.ipynb
 |   └───MTA_Notebook
 |         └─── MTANotebook.ipynb
 └───results
-|   |   DEHNN_results
-|         └─── 
 |   └───MTA_results
 |         └─── mta_findings.txt
 └───README.md
@@ -38,7 +37,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-While the station data is in the repository, the ridership data can be located [here](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/jsu2-fbtj/about_data). After downloading the ridership dataset, make sure the file name is named MTA_Passengers.csv and placed in the ```data/MTA``` folder along with the MTA_Stations.csv file.
+While the station data is in the repository, the ridership data can be located [here](https://data.ny.gov/Transportation/MTA-Subway-Origin-Destination-Ridership-Estimate-2/jsu2-fbtj/about_data). After downloading the ridership dataset, make sure the file name is named ```MTA_Passengers.csv``` and placed in the ```data/MTA``` folder along with the ```MTA_Stations.csv``` file.
 
 ## Running
 
@@ -57,3 +56,10 @@ This part of the project will focus on my reimplementation of the DE-HNN paper w
 Download the [dataset](https://drive.google.com/file/d/1Scq35gvCQvIMrmthGs7MUhc8c1VZ8ZwN/view?usp=drive_link). Open the zip file, extract all of the files, and place them in a new folder called ```NCSU-DigIC-GraphData-2023-07-25/```. Then, place the data in ```data/Chip_data```
 
 ## Running
+
+To find the code for this project, locate ```src/DE-HNN-Re/DEHNN_Model.ipynb``` to find the model and the results of the model based on a test itself.
+
+To run the model yourself, first process the data by opening the ```data_process.ipynb``` located in the same folder as the model is.
+
+- ```data_process.ipynb``` loads, processes, and creates a graph representation based on the raw data. For my project, I have only processed the raw data of ```xbar``` which is a folder containing 13 designs in the dataset linked above.
+- ```DEHNN_Model.ipynb``` contains the DEHNN model itself as well as an example of training and testing the model using the data processed to predict congestion in the design.
